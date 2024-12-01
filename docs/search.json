@@ -1,0 +1,291 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "R and Python Coding Handbook for Undergraduate Statistic",
+    "section": "",
+    "text": "Welcome\nWelcome to R Book for Undergraduate Statistic, this book contains code and study material for undergraduate students who major in statistics. I created this book to aid the student in their study. Based on my experience, undergraduate students tend to have a hard time coding and applying statistics, so I hope this book will ease the burden of students that are learning statistics.\nIn this book you will find material and code for undergraduate statistic class in. This book is based of the Institute Technology Sepuluh Nopember Curriculum and my Experience studying there. You will learn how to use r for statistical analysis for many difference class.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "What will you learn\nIn this book you will learn how to code and applied statistical method for the following classes",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "intro.html#what-will-you-learn",
+    "href": "intro.html#what-will-you-learn",
+    "title": "Introduction",
+    "section": "",
+    "text": "Intro to R\nIntro to Statistic\nIntro to Probability\nNumerical Analysis\nRegression Analysis\nExperimental Design\nSampling And Survey\nMathemathical Statistic\nOfficial Statistic\nNonparametric Analysis\nStochastic Process\nIntro to Econometrics\nApplied Multivariate Analysis\nCategorical Analysis\nIntro to Survival Analysis\nIntro to Time Series Analysis\nStatistical Quality Control\nData Mining And Vizualization\nSimulation Techniques\nStatistical Machine Learning\nData Analysis\nIntro to Spatial Statistic\nComputational Bayesian Analysis",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "intro.html#prerequisetes",
+    "href": "intro.html#prerequisetes",
+    "title": "Introduction",
+    "section": "Prerequisetes",
+    "text": "Prerequisetes\nYou are assumed enrolling in a statistics major or some equivalent. You are also assumed to have access to a laptop and computer with R and R Studio installed. If not here is the following link to install them. Also, you are assumed to be numerically literate.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "intro.html#what-you-wont-learn",
+    "href": "intro.html#what-you-wont-learn",
+    "title": "Introduction",
+    "section": "What you won’t learn",
+    "text": "What you won’t learn\nThis book will not go in depth on theory and math. Focusing more on their application instead.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "intro.html#about-me",
+    "href": "intro.html#about-me",
+    "title": "Introduction",
+    "section": "About me",
+    "text": "About me\nHi i’m Aufar, if you like this book feel free to say “Hi!” on LinkedIn\nAlso if you find any error in this book feel free to contact me using my email aufarromeo@gmail.com",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "intro.html#acknowledgments",
+    "href": "intro.html#acknowledgments",
+    "title": "Introduction",
+    "section": "Acknowledgments",
+    "text": "Acknowledgments",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "01_intro to r.html",
+    "href": "01_intro to r.html",
+    "title": "Intro to R",
+    "section": "",
+    "text": "In this part of book we will learn the basic of using R. If you already proficient with R you can skip this part of book and continue to other parts. In this part we will learn the following subject.\n\nData Operation\nData Manipulation\nData Import\nConditional Statement\nLoop\nFucntion\n\nAlso there is other resource to help you learn R, ff you never use R, Hands on Programming with R is a good book to start. To download R you can go to CRAN (comprehensive R archive network) https://cloud.r-project.org. If you also have not download RStudio, you can download it from https://posit.co/download/rstudio-desktop/, Rstudio itself is an integrated development environment, or IDE for progamming with R. Other book that i reccomended is R for Data Scienece 2nd Edition, this book will teach you many other R skill.",
+    "crumbs": [
+      "Intro to R"
+    ]
+  },
+  {
+    "objectID": "01_01_data operation.html",
+    "href": "01_01_data operation.html",
+    "title": "1  Data Operation",
+    "section": "",
+    "text": "1.1 Basic Data Type\nThere is 4 basic datatype in R which is:\nInteger is data that has form of whole number like -10, 10, and 0. Numeric or float is numerical data that hasi decimal like -1.5, 2,6 and etc. Character or string is data type that store text like apple, fruit, etc. it is created by using quotation mark “” like this “apple”. Logical or Boolean data type that only has two possible value which is TRUE and FALSE. Here is an example for creating each data type:\n# &lt;- operator is used to assign value to variable\n# Note: R is case sensitive so be careful when naming variable and assigning them value\n\n# Integer\na &lt;- 1L\n## L is for whole number, we could write othe like 3L, 4L and so on\n\n# Numeric\nb &lt;- 2.5 \n\n# Character\nc &lt;- \"stat\" \n\n# Logical\nd &lt;- TRUE \n## Other Boolean Value is False, we could also shorthen them using T and F for True and false\n\n# Note: Use class() to Check data type\nThe code above means we create variable and assign them specific value using &lt;- operator. Here is the result of class for each variable we created\nData Type of a: integer\nData Type of b: numeric\nData Type of c: character\nData Type of d: logical\nWe could see for each variable has the correct data type that we has assign.",
+    "crumbs": [
+      "Intro to R",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Operation</span>"
+    ]
+  },
+  {
+    "objectID": "01_01_data operation.html#basic-data-type",
+    "href": "01_01_data operation.html#basic-data-type",
+    "title": "1  Data Operation",
+    "section": "",
+    "text": "Integer\nNumeric or Float\nCharacter or String\nLogical or Boolean",
+    "crumbs": [
+      "Intro to R",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Operation</span>"
+    ]
+  },
+  {
+    "objectID": "01_01_data operation.html#basic-operation",
+    "href": "01_01_data operation.html#basic-operation",
+    "title": "1  Data Operation",
+    "section": "1.2 Basic Operation",
+    "text": "1.2 Basic Operation\nBasic Operation which is\n\n\n\nOperation\nSymbol\nExample\n\n\n\n\nAddition\n+\nx+y\n\n\nSubtraction\n-\nx-y\n\n\nMultiplication\n*\nx*y\n\n\nDivision\n/\nx/y\n\n\nExponent\n^\nx^y\n\n\nModulus\n%%\nx%%y\n\n\n\nHere is an example for each basic operation\n\n# Define variable\na &lt;- 10\nb &lt;- 3\nc &lt;- 2\n# Addition 10+3 = 13\na+b\n\n[1] 13\n\n# Subtraction 10-3 = 7\na-b\n\n[1] 7\n\n# Multiplication 10*3 = 30\na*b\n\n[1] 30\n\n# Division 10/2 = 5\na/c\n\n[1] 5\n\n# Exponent 10^2 = 100\na^c\n\n[1] 100\n\n# Modulus 10%%2 = 0\na %% c\n\n[1] 0",
+    "crumbs": [
+      "Intro to R",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Operation</span>"
+    ]
+  },
+  {
+    "objectID": "01_01_data operation.html#vector",
+    "href": "01_01_data operation.html#vector",
+    "title": "1  Data Operation",
+    "section": "1.3 Vector",
+    "text": "1.3 Vector\nVector is a collection of item that has the same data type or we could say it as one dimensional array. Vector in r can be created using c, here is an example\n\n# Creating vector\nx &lt;- c(1,2,3,4,5)\nx\n\n[1] 1 2 3 4 5\n\n\nwe could see the output is",
+    "crumbs": [
+      "Intro to R",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Operation</span>"
+    ]
+  },
+  {
+    "objectID": "01_01_data operation.html#array",
+    "href": "01_01_data operation.html#array",
+    "title": "1  Data Operation",
+    "section": "1.4 Array",
+    "text": "1.4 Array\n\n# Create an array\narr &lt;- array(1:12, dim = c(3, 4))\n# Print the array\narr\n\n     [,1] [,2] [,3] [,4]\n[1,]    1    4    7   10\n[2,]    2    5    8   11\n[3,]    3    6    9   12\n\n# Access an element in the array\narr[2, 3]\n\n[1] 8",
+    "crumbs": [
+      "Intro to R",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Operation</span>"
+    ]
+  },
+  {
+    "objectID": "01_01_data operation.html#matrix",
+    "href": "01_01_data operation.html#matrix",
+    "title": "1  Data Operation",
+    "section": "1.5 Matrix",
+    "text": "1.5 Matrix\n\n# Create a matrix\nmat &lt;- matrix(1:9, nrow = 3, ncol = 3)\n# Print the matrix\nmat\n\n     [,1] [,2] [,3]\n[1,]    1    4    7\n[2,]    2    5    8\n[3,]    3    6    9\n\n# Access an element in the matrix\nmat[2, 3]\n\n[1] 8",
+    "crumbs": [
+      "Intro to R",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Operation</span>"
+    ]
+  },
+  {
+    "objectID": "01_01_data operation.html#dataframe",
+    "href": "01_01_data operation.html#dataframe",
+    "title": "1  Data Operation",
+    "section": "1.6 Dataframe",
+    "text": "1.6 Dataframe\n\n# Create a dataframe\ndf &lt;- data.frame(\n  Name = c(\"Alice\", \"Bob\", \"Charlie\"),\n  Age = c(25, 30, 35),\n  Score = c(85, 90, 95)\n)\n# Print the dataframe\ndf\n\n     Name Age Score\n1   Alice  25    85\n2     Bob  30    90\n3 Charlie  35    95\n\n# Access a column in the dataframe\ndf$Name\n\n[1] \"Alice\"   \"Bob\"     \"Charlie\"\n\n# Access a specific element\ndf[2, \"Score\"]\n\n[1] 90",
+    "crumbs": [
+      "Intro to R",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Operation</span>"
+    ]
+  },
+  {
+    "objectID": "01_01_data operation.html#list",
+    "href": "01_01_data operation.html#list",
+    "title": "1  Data Operation",
+    "section": "1.7 List",
+    "text": "1.7 List\n\n# Create a list\nlst &lt;- list(\n  Name = \"Alice\",\n  Age = 25,\n  Scores = c(85, 90, 95)\n)\n# Print the list\nlst\n\n$Name\n[1] \"Alice\"\n\n$Age\n[1] 25\n\n$Scores\n[1] 85 90 95\n\n# Access an element in the list\nlst$Scores\n\n[1] 85 90 95",
+    "crumbs": [
+      "Intro to R",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Operation</span>"
+    ]
+  },
+  {
+    "objectID": "01_02_data manipulation.html",
+    "href": "01_02_data manipulation.html",
+    "title": "2  Data Manipulation",
+    "section": "",
+    "text": "2.1 Rename Column",
+    "crumbs": [
+      "Intro to R",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Manipulation</span>"
+    ]
+  },
+  {
+    "objectID": "01_02_data manipulation.html#indexing",
+    "href": "01_02_data manipulation.html#indexing",
+    "title": "2  Data Manipulation",
+    "section": "2.2 Indexing",
+    "text": "2.2 Indexing",
+    "crumbs": [
+      "Intro to R",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Manipulation</span>"
+    ]
+  },
+  {
+    "objectID": "01_03_data import.html",
+    "href": "01_03_data import.html",
+    "title": "3  Data Import",
+    "section": "",
+    "text": "3.1 Basic Operation",
+    "crumbs": [
+      "Intro to R",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data Import</span>"
+    ]
+  },
+  {
+    "objectID": "01_03_data import.html#basic-operation",
+    "href": "01_03_data import.html#basic-operation",
+    "title": "3  Data Import",
+    "section": "",
+    "text": "3.1.1 vector\n\n\n3.1.2 ss",
+    "crumbs": [
+      "Intro to R",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data Import</span>"
+    ]
+  },
+  {
+    "objectID": "01_03_data import.html#importing-data",
+    "href": "01_03_data import.html#importing-data",
+    "title": "3  Data Import",
+    "section": "3.2 Importing Data",
+    "text": "3.2 Importing Data\n\n3.2.1 CSV\n\n\n3.2.2 Excel\n\n\n3.2.3 Text",
+    "crumbs": [
+      "Intro to R",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data Import</span>"
+    ]
+  },
+  {
+    "objectID": "01_04_conditional statement.html",
+    "href": "01_04_conditional statement.html",
+    "title": "4  Conditional Statement",
+    "section": "",
+    "text": "4.1 If",
+    "crumbs": [
+      "Intro to R",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Conditional Statement</span>"
+    ]
+  },
+  {
+    "objectID": "01_04_conditional statement.html#else-if",
+    "href": "01_04_conditional statement.html#else-if",
+    "title": "4  Conditional Statement",
+    "section": "4.2 Else If",
+    "text": "4.2 Else If",
+    "crumbs": [
+      "Intro to R",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Conditional Statement</span>"
+    ]
+  },
+  {
+    "objectID": "01_04_conditional statement.html#else",
+    "href": "01_04_conditional statement.html#else",
+    "title": "4  Conditional Statement",
+    "section": "4.3 Else",
+    "text": "4.3 Else",
+    "crumbs": [
+      "Intro to R",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Conditional Statement</span>"
+    ]
+  },
+  {
+    "objectID": "01_05_loop.html",
+    "href": "01_05_loop.html",
+    "title": "5  Loop",
+    "section": "",
+    "text": "5.1 For",
+    "crumbs": [
+      "Intro to R",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Loop</span>"
+    ]
+  },
+  {
+    "objectID": "01_05_loop.html#while",
+    "href": "01_05_loop.html#while",
+    "title": "5  Loop",
+    "section": "5.2 While",
+    "text": "5.2 While",
+    "crumbs": [
+      "Intro to R",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Loop</span>"
+    ]
+  },
+  {
+    "objectID": "01_05_loop.html#lapply",
+    "href": "01_05_loop.html#lapply",
+    "title": "5  Loop",
+    "section": "5.3 Lapply",
+    "text": "5.3 Lapply",
+    "crumbs": [
+      "Intro to R",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Loop</span>"
+    ]
+  }
+]
