@@ -1,0 +1,47 @@
+# Introduction {.unnumbered}
+
+Statistic is a wonderful field that deals with data. The goal of R Book for Undergraduate Statistic is to aid to student in their study of statistic by applying their knowledge.
+
+## What will you learn
+
+In this book you will learn how to code and applied statistical method for the following classes
+
+1.  Intro to R
+2.  Intro to Statistic
+3.  Intro to Probability
+4.  Numerical Analysis
+5.  Regression Analysis
+6.  Experimental Design
+7.  Sampling And Survey
+8.  Mathemathical Statistic
+9.  Official Statistic
+10. Nonparametric Analysis
+11. Stochastic Process
+12. Intro to Econometrics
+13. Applied Multivariate Analysis
+14. Categorical Analysis
+15. Intro to Survival Analysis
+16. Intro to Time Series Analysis
+17. Statistical Quality Control
+18. Data Mining And Vizualization
+19. Simulation Techniques
+20. Statistical Machine Learning
+21. Data Analysis
+22. Intro to Spatial Statistic
+23. Computational Bayesian Analysis
+
+## Prerequisetes
+
+You are assumed enrolling in a statistics major or some equivalent. You are also assumed to have access to a laptop and computer with R and R Studio installed. If not here is the following link to install them. Also, you are assumed to be numerically literate.
+
+## What you won't learn
+
+This book will not go in depth on theory and math. Focusing more on their application instead.
+
+## About me
+
+Hi i'm Aufar, if you like this book feel free to say "Hi!" on [LinkedIn](https://www.linkedin.com/in/akhmad-aufar-romeo-bakhtiar-04210326b/)
+
+Also if you find any error in this book feel free to contact me using my email aufarromeo\@gmail.com
+
+## Acknowledgments

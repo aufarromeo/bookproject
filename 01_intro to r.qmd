@@ -1,0 +1,12 @@
+# Intro to R
+
+In this part of book we will learn the basic of using R. If you already proficient with R you can skip this part of book and continue to other parts. In this part we will learn the following subject.
+
+1.  Data Operation
+2.  Data Manipulation
+3.  Data Import
+4.  Conditional Statement
+5.  Loop
+6.  Fucntion
+
+Also there is other resource to help you learn R, ff you never use R, [Hands on Programming with R](https://rstudio-education.github.io/hopr/) is a good book to start. To download R you can go to CRAN (comprehensive R archive network) <https://cloud.r-project.org>. If you also have not download RStudio, you can download it from <https://posit.co/download/rstudio-desktop/>, Rstudio itself is an integrated development environment, or IDE for progamming with R. Other book that i reccomended is [R for Data Scienece 2nd Edition](https://r4ds.hadley.nz/), this book will teach you many other R skill.

@@ -1,0 +1,55 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "R and Python Coding Handbook for Undergraduate Statistic"
+  author: "Akhmad Aufar Romeo Bakhtiar"
+  date: "10/4/2024"
+  chapters:
+  
+    - index.qmd
+    - intro.qmd
+    - part: 01_intro to r.qmd
+      chapters: 
+        - 01_01_data operation.qmd
+        - 01_02_data manipulation.qmd
+        - 01_03_data import.qmd
+        - 01_04_conditional statement.qmd
+        - 01_05_loop.qmd
+        - 01_06_function.qmd
+    - part: 02_intro to statistics.qmd
+    - part: 03_intro to probability.qmd
+    - part: 04_numerical analysis.qmd
+    - part: 05_regression analysis.qmd
+    - part: 06_experimental design.qmd
+    - part: 07_sampling and survey.qmd
+    - part: 08_mathemathical statistic.qmd
+    - part: 09_official statistic.qmd
+    - part: 10_nonparametric analysis.qmd
+    - part: 11_stochastic process.qmd
+    - part: 12_intro to econometrics.qmd
+    - part: 13_applied multivariate analysis.qmd
+    - part: 14_categorical analysis.qmd
+    - part: 15_intro to survival analysis.qmd
+    - part: 16_intro to time series analysis.qmd
+    - part: 17_statistical quality control.qmd
+    - part: 18_data mining and vizualization.qmd
+    - part: 19_simulation Techniques.qmd
+    - part: 20_statistical machine learning.qmd
+    - part: 21_data analysis.qmd
+    - part: 22_intro to spatial statistic.qmd
+    - references.qmd
+    
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+  pdf:
+    documentclass: scrreprt
+
+
+

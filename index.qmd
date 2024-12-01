@@ -1,0 +1,11 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: inline
+---
+
+# Welcome {.unnumbered}
+
+Welcome to R Book for Undergraduate Statistic, this book contains code and study material for undergraduate students who major in statistics. I created this book to aid the student in their study. Based on my experience, undergraduate students tend to have a hard time coding and applying statistics, so I hope this book will ease the burden of students that are learning statistics.
+
+In this book you will find material and code for undergraduate statistic class in. This book is based of the Institute Technology Sepuluh Nopember Curriculum and my Experience studying there. You will learn how to use r for statistical analysis for many difference class.

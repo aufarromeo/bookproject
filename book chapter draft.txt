@@ -1,0 +1,71 @@
+Preface
+Intro to R
+	1. Data Import
+	2. Data Operation
+	3. Data Manipulation
+	4. Conditional Statement
+	5. Loop
+	6. Function
+Intro to Python
+Intro to Statistic
+	1. Descriptive Statistic
+	2. Discrete Probability
+	3. Continous Probability
+	4. 1 Population Test
+	5. 2 Population Test
+	6. ANOVA
+	7. Linear Regression
+
+Numerical Analysis
+Intro to Probability Theory
+Regression Analysis
+	1. Simple Linear Regression
+	2. Multiple Linear Regression
+	3. Dummy Regression
+	4. Heterocedaticity
+	5. Multicollineartity
+	6. Non Linear Regression
+
+Nonparametric Statistic
+Data Mining and Vizualization
+	1. 
+
+Intro to Survival Analysis
+Categorical Data Analysis
+	1. Contingency Table 
+	2. Log Linear Model
+	3. Binary Logistic Regression
+	4. Ordinal Logistic Regression
+	5. Multinomial Logistic Regression
+	6. Count Data Regression
+
+Applied Multivariate Analysis
+	1. Multivariate Hypotesis Testing
+	2. Multivariate Regression
+	3. MANOVA
+	4. PCA & Factor Analysis
+	5. Cluster Analysis 
+
+Statistical Machine Learning
+	1. Clustering
+	2. Neural Network for Classification
+	3. Neural Network for Regression
+	4. Decision Tree
+	5. Bagging
+	6. Boosting
+	7. SVM
+	8. Other SVM
+	9. Time Series 
+
+Intro to Time Series Analysis
+	1. Time Series Data 
+	2. Decomposition
+	3. Naive Forecast
+	4. Time Series Regression
+	5. Exponential Smoothing
+	6. Arima
+	7. Intervention Analysis
+	8. ARCH & GARCH
+	
+Data Analysis
+	1. 
