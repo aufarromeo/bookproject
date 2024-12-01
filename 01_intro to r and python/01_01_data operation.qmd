@@ -1,0 +1,158 @@
+# Data Operation
+
+## Basic Data Type
+
+There is 4 basic datatype in R which is:
+
+1.  Integer
+2.  Numeric or Float
+3.  Character or String
+4.  Logical or Boolean
+
+**Integer** is data that has form of whole number like -10, 10, and 0. **Numeric** or float is numerical data that hasi decimal like -1.5, 2,6 and etc. **Character** or string is data type that store text like apple, fruit, etc. it is created by using quotation mark "" like this "apple". **Logical** or Boolean data type that only has two possible value which is TRUE and FALSE. Here is an example for creating each data type:
+
+```{r}
+# <- operator is used to assign value to variable
+# Note: R is case sensitive so be careful when naming variable and assigning them value
+
+# Integer
+a <- 1L
+## L is for whole number, we could write othe like 3L, 4L and so on
+
+# Numeric
+b <- 2.5 
+
+# Character
+c <- "stat" 
+
+# Logical
+d <- TRUE 
+## Other Boolean Value is False, we could also shorthen them using T and F for True and false
+
+# Note: Use class() to Check data type 
+
+
+```
+
+The code above means we create variable and assign them specific value using \<- operator. Here is the result of class for each variable we created
+
+```{r}
+#| echo: false
+cat(paste0("Data Type of a: ", class(a), "\n",
+           "Data Type of b: ", class(b), "\n",
+           "Data Type of c: ", class(c), "\n",
+           "Data Type of d: ", class(d), "\n"))
+
+```
+
+We could see for each variable has the correct data type that we has assign.
+
+## Basic Operation
+
+Basic Operation which is
+
+| **Operation**  | **Symbol** | **Example** |
+|:--------------:|:----------:|:-----------:|
+|    Addition    |     \+     |     x+y     |
+|  Subtraction   |     \-     |     x-y     |
+| Multiplication |     \*     |    x\*y     |
+|    Division    |     /      |     x/y     |
+|    Exponent    |     \^     |    x\^y     |
+|    Modulus     |     %%     |    x%%y     |
+
+Here is an example for each basic operation
+
+```{r}
+# Define variable
+a <- 10
+b <- 3
+c <- 2
+# Addition 10+3 = 13
+a+b
+# Subtraction 10-3 = 7
+a-b
+# Multiplication 10*3 = 30
+a*b
+# Division 10/2 = 5
+a/c
+# Exponent 10^2 = 100
+a^c
+# Modulus 10%%2 = 0
+a %% c
+```
+
+```{r}
+
+```
+
+## Vector
+
+Vector is a collection of item that has the same data type or we could say it as one dimensional array. Vector in r can be created using c, here is an example
+```{r}
+# Creating vector
+x <- c(1,2,3,4,5)
+x
+```
+we could see the output is
+
+## Array
+
+```{r}
+# Create an array
+arr <- array(1:12, dim = c(3, 4))
+# Print the array
+arr
+# Access an element in the array
+arr[2, 3]
+
+```
+
+
+## Matrix
+
+```{r}
+# Create a matrix
+mat <- matrix(1:9, nrow = 3, ncol = 3)
+# Print the matrix
+mat
+# Access an element in the matrix
+mat[2, 3]
+
+```
+
+
+## Dataframe
+
+```{r}
+# Create a dataframe
+df <- data.frame(
+  Name = c("Alice", "Bob", "Charlie"),
+  Age = c(25, 30, 35),
+  Score = c(85, 90, 95)
+)
+# Print the dataframe
+df
+# Access a column in the dataframe
+df$Name
+# Access a specific element
+df[2, "Score"]
+
+```
+
+
+## List
+
+```{r}
+# Create a list
+lst <- list(
+  Name = "Alice",
+  Age = 25,
+  Scores = c(85, 90, 95)
+)
+# Print the list
+lst
+# Access an element in the list
+lst$Scores
+
+
+```

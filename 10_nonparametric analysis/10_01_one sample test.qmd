@@ -1,0 +1,112 @@
+
+# One Sample Nonparametric Test
+
+Here we are going to show how to do one sample nonparametric test in r and python
+```{r}
+#| echo: false
+#| warning: false
+#| eval: false
+#| output: false
+library(reticulate)
+reticulate::use_condaenv('andat')
+
+```
+
+## Runs Test
+::: {.panel-tabset}
+
+#### R
+```{r}
+library(DescTools)
+x <- c(1.83,  0.50,  1.62,  2.48, 1.68, 1.88, 1.55, 3.06, 1.30)
+SignTest(x,mu=4)
+
+```
+
+
+#### Python
+```{python}
+import statsmodels.api as sm
+
+# Sample data
+data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+# Perform the runs test
+z_stat, p_value = sm.stats.runstest_1samp(data, cutoff='median')
+
+print('Z-statistic:', z_stat)
+print('p-value:', p_value)
+
+```
+
+:::
+
+
+
+## Sign Test
+
+::: {.panel-tabset}
+#### R
+```{r}
+SignTest(x,mu=4)
+```
+
+#### Python
+```{python}
+import statsmodels
+import numpy as np
+
+data = [4, 5, 6, 5, 3, 4, 2, 7, 6, 5, 4, 3, 8, 8, 9, 4, 6, 7, 2, 5, 6]
+mu0 = 4
+z_stat, p_value = statsmodels.stats.descriptivestats.sign_test(data, mu0)
+
+print('Z-statistic:', z_stat)
+print('p-value:', p_value)
+
+```
+
+:::
+
+
+
+## Wilcoxon Test
+
+::: {.panel-tabset}
+#### R
+```{r}
+wilcox.test(x,mu=3)
+```
+
+#### Python
+```{python}
+import numpy as np
+from scipy.stats import wilcoxon as wil
+
+sample = [4, 5, 6, 5, 3, 4, 2, 7, 6, 5, 4, 3, 8, 8, 9, 4, 6, 7, 2, 5, 6]
+sample = np.array(sample)
+med0 = 5
+
+W, p = wil(sample - med0, correction = False, mode = 'approx')
+
+print("W:",W)
+print("p-value:",p)
+```
+:::
+
+## Binomial Test
+
+::: {.panel-tabset}
+
+#### R
+```{r}
+binom.test(682, 682 + 243, p = 0.2,alternative = 'greater')
+```
+#### Python
+```{python}
+from scipy.stats import binomtest
+result = binomtest(682, n=682 + 243, p=0.2, alternative='greater')
+print("probability of success:",result.statistic)
+print("p-value:",result.pvalue)
+```
+
+:::

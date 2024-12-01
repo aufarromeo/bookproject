@@ -10,15 +10,16 @@ book:
   
     - index.qmd
     - intro.qmd
-    - part: 01_intro to r.qmd
+    - part: 01_intro to r and python/01_intro to r.qmd
       chapters: 
-        - 01_01_data operation.qmd
-        - 01_02_data manipulation.qmd
-        - 01_03_data import.qmd
-        - 01_04_conditional statement.qmd
-        - 01_05_loop.qmd
-        - 01_06_function.qmd
+        - 01_intro to r and python/01_01_data operation.qmd
+        - 01_intro to r and python/01_02_data manipulation.qmd
+        - 01_intro to r and python/01_03_data import.qmd
+        - 01_intro to r and python/01_04_conditional statement.qmd
+        - 01_intro to r and python/01_05_loop.qmd
+        - 01_intro to r and python/01_06_function.qmd
     - part: 02_intro to statistics.qmd
+  
     - part: 03_intro to probability.qmd
     - part: 04_numerical analysis.qmd
     - part: 05_regression analysis.qmd
@@ -27,6 +28,9 @@ book:
     - part: 08_mathemathical statistic.qmd
     - part: 09_official statistic.qmd
     - part: 10_nonparametric analysis.qmd
+      chapters: 
+        - 10_nonparametric analysis/10_01_one sample test.qmd
+
     - part: 11_stochastic process.qmd
     - part: 12_intro to econometrics.qmd
     - part: 13_applied multivariate analysis.qmd
