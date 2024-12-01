@@ -1,8 +1,0 @@
-# Loop
-
-## For
-
-## While
-
-## Lapply
-
