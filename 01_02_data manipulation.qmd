@@ -1,6 +1,0 @@
-# Data Manipulation
-
-
-## Rename Column
-
-## Indexing
